@@ -16,7 +16,7 @@ const songs = [
         artist: 'Harrisj',
         duration: 240,
         src: '/Harris J  O Allah Official Music .mp3',
-        image: '/30ed48297a239c30896c22c8e269b0c5.jpg'
+        image: '30ed48297a239c30896c22c8e269b0c5.jpg'
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ const songs = [
         artist: 'Harrisj',
         duration: 300,
         src: '/Harris J - Salati (My Prayer)   Official Lyric Video.mp3',
-        image: '/30ed48297a239c30896c22c8e269b0c5.jpg'
+        image: '30ed48297a239c30896c22c8e269b0c5.jpg'
     },
     {
         id: 3,
@@ -32,7 +32,7 @@ const songs = [
         artist: 'Maher_Zain___Harris_J_',
         duration: 220,
         src: '/Maher_Zain___Harris_J_-_Qalbi_Fil_Madinah___Official_Lyric_Video___قلبي_في_المدينة(128k).mp3',
-        image: '/30ed48297a239c30896c22c8e269b0c5.jpg'
+        image: '30ed48297a239c30896c22c8e269b0c5.jpg'
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ const songs = [
         artist: 'Harrisj',
         duration: 280,
         src: '/Maher_Zain___Harris_J_-_Qalbi_Fil_Madinah___Official_Lyric_Video___قلبي_في_المدينة(128k).mp3',
-        image: '/4bd7363410de3be51805b2fc804a40ac.jpg'
+        image: '4bd7363410de3be51805b2fc804a40ac.jpg'
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ const songs = [
         artist: 'harris',
         duration: 250,
         src: '/Harris J - Salati (My Prayer)   Official Lyric Video.mp3',
-        image: '/30ed48297a239c30896c22c8e269b0c5.jpg'
+        image: '30ed48297a239c30896c22c8e269b0c5.jpg'
     }
 ];
 
