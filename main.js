@@ -15,7 +15,7 @@ const songs = [
         title: 'O Allah',
         artist: 'Harrisj',
         duration: 240,
-        src: 'Harris J  O Allah Official Music .mp3',
+        src: 'Harris J  O Allah Official Music.mp3',
         image: '30ed48297a239c30896c22c8e269b0c5.jpg'
     },
     {
@@ -23,7 +23,7 @@ const songs = [
         title: 'Salati',
         artist: 'Harrisj',
         duration: 300,
-        src: 'Harris J - Salati (My Prayer)   Official Lyric Video.mp3',
+        src: 'Harris J - Salati (My Prayer)Official Lyric Video.mp3',
         image: '30ed48297a239c30896c22c8e269b0c5.jpg'
     },
     {
@@ -47,7 +47,7 @@ const songs = [
         title: 'salati',
         artist: 'harris',
         duration: 250,
-        src: '/Harris J - Salati (My Prayer)   Official Lyric Video.mp3',
+        src: 'Harris J - Salati (My Prayer)   Official Lyric Video.mp3',
         image: '30ed48297a239c30896c22c8e269b0c5.jpg'
     }
 ];
