@@ -3,7 +3,7 @@
 A beautiful, interactive single-page web application built using fundamental frontend web technologies. 
 
 ## 🌐 Live Demo
-You can view the live website here: [Insert your GitHub Pages URL here]
+You can view the live website here: [https://mdodakitabs.github.io/music-player/]
 
 ## ✨ Features
 * **Interactive UI:** Clean and responsive design.
