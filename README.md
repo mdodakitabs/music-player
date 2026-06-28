@@ -19,7 +19,7 @@ You can view the live website here: [Insert your GitHub Pages URL here]
 ```text
 ├── index.html        # Main HTML file
 ├── style.css         # Styling and design
-├── script.js         # JavaScript application logic
+├── main.js         # JavaScript application logic
 ├── myimage.jpg       # App background / display image
 └── song.mp3          # Audio file
 ```
