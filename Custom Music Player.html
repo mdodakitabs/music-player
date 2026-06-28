@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مشغل موسيقى مخصص مع واجهة عصرية">
+    <title>مشغل الموسيقى | Music Player</title>
+    <link rel="stylesheet" href="Custom Music Player.css">
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header -->
+        <header class="header">
+            <h1>🎵 مشغل الموسيقى</h1>
+            <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">
+                <span class="icon">🌙</span>
+            </button>
+        </header>
+
+        <main class="main-content">
+            
+            <!-- Player Section -->
+            <section class="player" aria-label="مشغل الموسيقى">
+                
+                <!-- Album Art -->
+                <div class="album-art-container">
+                    <img id="albumArt" src="https://via.placeholder.com/200?text=Music+Player" alt="غلاف الألبوم" class="album-art">
+                    <div class="visualizer">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+
+                <!-- Song Info -->
+                <section class="song-info">
+                    <h2 id="songTitle" class="song-title">اضغط لتشغيل أغنية</h2>
+                    <p id="artistName" class="artist-name">اسم الفنان</p>
+                </section>
+
+                <!-- Time Display -->
+                <div class="time-display">
+                    <span id="currentTime" class="time">0:00</span>
+                    <span id="duration" class="time">0:00</span>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <input 
+                        type="range" 
+                        id="progressBar" 
+                        class="progress-bar" 
+                        min="0" 
+                        max="100" 
+                        value="0"
+                        aria-label="شريط تقدم الأغنية"
+                    >
+                </div>
+
+                <!-- Controls -->
+                <div class="controls">
+                    <button id="prevBtn" class="control-btn prev" aria-label="الأغنية السابقة">
+                        <span class="icon">⏮️</span>
+                    </button>
+                    <button id="playBtn" class="control-btn play-btn" aria-label="تشغيل">
+                        <span class="icon">▶️</span>
+                    </button>
+                    <button id="nextBtn" class="control-btn next" aria-label="الأغنية التالية">
+                        <span class="icon">⏭️</span>
+                    </button>
+                </div>
+
+                <!-- Volume Control -->
+                <div class="volume-container">
+                    <label for="volumeControl" class="volume-label">
+                        <span class="icon">🔊</span>
+                    </label>
+                    <input 
+                        type="range" 
+                        id="volumeControl" 
+                        class="volume-slider" 
+                        min="0" 
+                        max="100" 
+                        value="70"
+                        aria-label="التحكم بمستوى الصوت"
+                    >
+                </div>
+
+            </section>
+
+            <!-- Playlist Section -->
+            <section class="playlist" aria-label="قائمة التشغيل">
+                <h2 class="playlist-title">قائمة التشغيل</h2>
+                <ul id="playlistContainer" class="playlist-items">
+                    <!-- سيتم ملؤها بـ JavaScript -->
+                </ul>
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="audioPlayer"></audio>
+
+    <script src="Custom Music Player.js"></script>
+</body>
+</html>
